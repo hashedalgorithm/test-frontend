@@ -1,0 +1,58 @@
+.cartcard > table {
+  width: 900px;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.couponbox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  justify-content: space-around;
+}
+.quantitybox {
+  display: flex;
+  flex-flow: row unwrap;
+}
+.QB_box {
+  width: 20px;
+  cursor: pointer;
+  border: 0.2px solid #e6e6e6;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 12px;
+}
+input {
+  border: 0.5px solid #e6e6e6;
+  padding: 7px 20px;
+  width: 200px;
+}
+.quantitybox > input {
+  width: 10px !important;
+}
+button {
+  margin: auto 20px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 15px;
+  background-color: white;
+  color: #4dc3ff;
+  cursor: pointer;
+}
+.button:active {
+  border: 0.5px solid #e6e6e6 !important;
+}
+.updatecart > button {
+  color: #4dc3ff;
+  background-color: #e6e6e6;
+  font-weight: 300;
+}

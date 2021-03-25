@@ -1,0 +1,18 @@
+.subtotal {
+  height: 180px !important;
+  border: 2px solid #e6e6e6;
+  border-left: none;
+}
+.subtotal > button {
+  width: 90%;
+  background-color: #4dc3ff;
+  color: white;
+  font-size: 12px;
+  padding: 10px 8px;
+}
+.subtotal > table {
+  width: 400px;
+}
+.subtotaltable > td th {
+  border-collapse: collapse;
+}
